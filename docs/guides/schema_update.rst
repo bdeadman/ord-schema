@@ -34,10 +34,23 @@ to be added
 Step 3: Rebuild the Protocol Buffer Wrappers
 ********************************************
 
-If you make changes to the protocol buffer definitions then you need to re-compile the proto wrappers and run tests. Ensure that 
+If you make changes to the protocol buffer definitions then you need to re-compile the proto wrappers and run the format tests. Ensure that you have protoc, protobuf-javascript and go installed, then run the following from your ord-schema directory:
 
+.. code-block::
 
+    ./compile-proto-wrappers.sh
+    ./format.sh
 
+This should update the following files:
+
+* js/ord-schema/proto/dataset_pb.js
+* js/ord-schema/proto/reaction_pb.js
+* js/ord-schema/proto/test_pb.js
+* ord_schema/proto/dataset_pb2.py
+* ord_schema/proto/reaction_pb2.py
+* ord_schema/proto/test_pb2.py
+
+From Git changes can be committed to your branch and then pushed to the branch on origin.
 
 
 ********************************************
