@@ -34,7 +34,7 @@ to be added
 Step 3: Rebuild the Protocol Buffer Wrappers
 ********************************************
 
-If you make changes to the protocol buffer definitions then you need to re-compile the proto wrappers and run the format tests. Ensure that you have protoc, protobuf-javascript and go installed, then run the following from your ord-schema directory:
+If you make changes to the protocol buffer definitions then you need to re-compile the proto wrappers and run the format tests. Ensure that you have protoc, protobuf-javascript and go installed (`installation notes <editable_schema_install_notes.html>` `Overview of the ORD <editable_schema_install_notes.html>`_). Then run the following from your ord-schema directory:
 
 .. code-block::
 
