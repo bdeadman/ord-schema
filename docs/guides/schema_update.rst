@@ -34,7 +34,11 @@ to be added
 Step 3: Rebuild the Protocol Buffer Wrappers
 ********************************************
 
-If you make changes to the protocol buffer definitions, install protoc and run ./compile_proto_wrappers.sh to rebuild the wrappers.
+If you make changes to the protocol buffer definitions then you need to re-compile the proto wrappers and run tests. Ensure that 
+
+
+
+
 
 ********************************************
 Step 4: Push Update to ord-schema
